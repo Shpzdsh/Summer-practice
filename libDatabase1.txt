@@ -1,0 +1,10 @@
+drop table if exists library;
+
+create table library(
+	id_book integer,
+	name_book varchar (100),
+	author_book varchar (100),
+	year_book integer,
+	quantity integer,
+	primary key (id_book)
+);
